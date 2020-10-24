@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+}
+
+.menu-top {
+    display: flex;
+}
+
+.menu-top {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: nowrap;
+    height: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(116, 0, 0);
+    height: 100px;
+}
+
+.title-left {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-left-a {
+    height: 20px;
+    width: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.title-left-b {
+    position: relative;
+    margin-top: 53px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans, sans-serif;
+    font-size: 14px;
+}
+
+ol {
+    position: relative;
+    line-height: 0cm;
+    font-weight: bolder;
+    left: -40px;
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
+
+.ua1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Jenson;
+    color: rgb(255, 255, 255);
+}
+
+.ua2 {
+    margin-top: -40px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Jenson;
+}
+
+.title-center {
+    margin-top: -20px;
+}
+
+.title-right-a {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans, sans-serif;
+    font-size: 14px;
+}
+
+.title-right-b {
+    margin-left: 70px;
+    margin-top: -30px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans, sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: darkred;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.title-right-b-a {
+    background-color: darkred;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.menu-dow {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: nowrap;
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 10px;
+}
